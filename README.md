@@ -1,4 +1,3 @@
-TUGAS PERTEMUAN 2
 Penambahan Latihan1 Menggunakan Controller,View,Model
 Menambahkan File .htaccess Untuk Menghilangkan index.php
 
