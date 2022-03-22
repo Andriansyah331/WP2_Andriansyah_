@@ -9,6 +9,8 @@ File Yang Ditambahkan Sebagai Berikut :
 
 Output-Dari-Latihan1.png
 
+Output-Dari-Contoh1.png
+
 Controller = Latihan1.php,Contoh1.php
 
 
