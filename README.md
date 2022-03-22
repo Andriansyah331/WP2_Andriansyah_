@@ -3,4 +3,5 @@ Menambahkan File .htaccess Untuk Menghilangkan index.php
 
 Controller = Latihan1.php,
 Model      = Model_latihan1.php,
-View       = view-latihan1.php
+View       = view-latihan1.php,
+Hasil Output Latihan1 = Output-Dari-Latihan1.png
