@@ -1,20 +1,16 @@
-Penambahan 
-
-
+# WP2_Perpus_TugasPertemuan5
 HASIL OUTPUT :
 
-Output-Dari-Error_Validation-Kode-Dan-Matakuliah.png
+Output-Isi-Pustaka-Buku.png
 
-Output-Dari-Error_Validation-Kode-Mata_kuliah.png
+Output-Isi-Pustaka-Role.png
 
-Output-Dari-Error_Validation-Nama-Mata_kuliah.png
+Output-Isi-Pustaka-User.png
+
+Output-Isi-Pustaka-Kategori.png
 
 File Yang Ditambahkan Sebagai Berikut :
 
-pustaka-booking/Application/Controller = penambahan codingan di Matakuliah.php yaitu codingan form_validation
+pustaka-booking/Application/config = autoload.php, database.php
 
-pustaka-booking/Application/Views = penambahan codingan di view-form-matakuliah.php yaitu codingan form_error
-
-pustaka-booking/config/ = penambahan config autoload $autoload['libraries'] = array('form_validation');
-
-
+pustaka-booking/Application/Models = ModelUser.php, ModelBuku.php
