@@ -38,31 +38,26 @@
 
 <!-- Modal Tambah kategori baru-->
 <div class="modal fade" id="kategoriBaruModal" tabindex="-1"
-role="dialog" aria-labelledby="kategoriBaruModalLabel" aria-
-hidden="true">
+role="dialog" aria-labelledby="kategoriBaruModalLabel" ariahidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title"
-id="kategoriBaruModalLabel">Tambah Kategori</h5>
+                <h5 class="modal-title" id="kategoriBaruModalLabel">Tambah Kategori</h5>
                 <button type="button" class="close" datadismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <form action="<?= base_url('buku/kategori'); ?>"
-method="post">
+            <form action="<?= base_url('buku/kategori'); ?>" method="post">
                 <div class="modal-body">
                     <div class="form-group">
-                        <select name="kategori" class="form-control
-form-control-user">
+                        <select name="kategori" class="form-control form-control-user">
                             <option value="">Pilih Kategori</option>
                             <?php
                             $k =
 ['Sains','Hobby','Komputer','Komunikasi','Hukum','Agama','Populer','
 Bahasa','Komik'];
                             for ($i=0;$i<9;$i++) { ?>
-                                <option value="<?= $k[$i];?>"><?=
-$k[$i];?></option>
+                                <option value="<?= $k[$i];?>"><?= $k[$i];?></option>
                             <?php } ?>
                         </select>
                     </div>
@@ -75,6 +70,6 @@ class="fas fa-plus-circle"></i> Tambah</button>
                 </div>
             </form>
         </div>
-     </div>
+    </div>
 </div>
 <!-- End of Modal Tambah Mneu -->
